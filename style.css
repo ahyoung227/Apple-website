@@ -146,6 +146,9 @@ footer {
     font-size: 10px;
     margin: 30px;
     font: 10px 'Lato', 'sans-serif';
+    margin: 30px auto;
+    width: 80%;
+    letter-spacing: 0.3px;
 }
 
 .left {
