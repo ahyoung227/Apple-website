@@ -1,0 +1,180 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of css reset */
+
+/* header */
+header {
+    display: flex;
+    flex-direction: column;
+    background: url("/images/banner.jpg") 100% 100% no-repeat;
+    width: 100%;
+    height: 538px;
+    align-items: center;
+}
+
+.nav {
+    position: relative;
+    display: block;
+    top: 83px;
+    margin: 0 auto;
+    width: 80%;
+    height: 36px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, .3) 1px 2px;
+    border: 1px solid rgb(84, 84, 84);
+    background-image: linear-gradient(180deg, rgb(141, 141, 141) , rgb(112, 112, 112) 50%, rgb(104, 104, 104) 50%, rgb(94, 94, 94));
+}
+
+.nav-lists {
+    display: flex;
+    color: #ffffff;
+    font-weight: bolder;
+    font: 14px 'Lato', 'sans-serif';
+}
+
+.nav-list {
+    width: 100%;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+    border-left: 1px solid #555555;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav-list:hover {
+    background-color: #555555;
+}
+
+.nav-image {
+    line-height: 40px;
+}
+
+input {
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: rgba(130, 130, 130, 0.32);
+    background: url(images/search_icon.svg) no-repeat;
+    background-position: left;
+}
+
+#apple-logo {
+    line-height: 60;
+}
+
+#search {
+    width: 106px;
+}
+
+div.first {
+    padding-top: 120px;
+}
+
+div.second {
+    padding-top: 10px;
+}
+
+div.third {
+    padding-top: 30px;
+}
+
+/* section */
+
+.promotion {
+    display: flex;
+}
+
+.promo-image {
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.promotion div:nth-child(4) {
+    margin-right: 0px;
+}
+
+/* footer */
+footer {
+    color: #aaaaaa;
+    font-weight: light;
+    font-size: 10px;
+    margin: 30px;
+    font: 10px 'Lato', 'sans-serif';
+}
+
+.left {
+    float: left;
+}
+
+.seller {
+    color: #0088cc;
+}
+
+.right {
+    float: right;
+}
+
+.footer-navs {
+    display: flex;
+}
+
+.footer-nav {
+    margin-left: 5px;
+    color: #0088cc;
+}
+
+div.copyright {
+    clear: both;
+    padding: 10px 0px 10px 0px;
+}
+
+.copyright {
+    display: block;
+}
+
