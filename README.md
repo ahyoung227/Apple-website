@@ -4,7 +4,7 @@
 
 ## About The Project
 
-<img src="/img/apple-clone-ahyoung.gif">
+<img src="/images/apple-clone-ahyoung.gif">
 
 ### Built With
 
